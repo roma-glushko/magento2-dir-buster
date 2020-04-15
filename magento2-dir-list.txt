@@ -31,6 +31,7 @@ var/log/system.log
 var/log/cron.log
 var/log/temando.log
 var/cache
+var/page_cache
 var/cache/mage-tags
 var/cache/mage--0
 var/session
@@ -38,6 +39,8 @@ var/export
 var/import_history
 var/importexport
 var/view_preprocessed
+var/resource_config.json
+var/tmp
 var/report
 app/etc/env.php
 app/etc/config.php
@@ -58,3 +61,4 @@ pub/media
 media
 bin/magento
 setup
+swagger
